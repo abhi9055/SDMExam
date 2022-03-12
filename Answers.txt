@@ -1,0 +1,80 @@
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git init
+Initialized empty Git repository in C:/Users/Lenovo/Desktop/SDM_EXam/QUE9/.git/
+
+Que 6 :-
+->
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git .add
+git: '.add' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git add .
+
+Que 7:-
+->
+
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git commit -m  "Commiting code"
+[master (root-commit) f051cb5] Commiting code
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 First.java
+
+QUE 9:-
+1)
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   First.java
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+2)
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git diff
+diff --git a/First.java b/First.java
+index e69de29..97c9f31 100644
+--- a/First.java
++++ b/First.java
+@@ -0,0 +1 @@
++Hello...!
+\ No newline at end of file
+
+3)
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git branch branch1
+
+4)
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git merge branch1
+
+Que 11:-
+->
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 220 bytes | 220.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/abhi9055/SDMExam/pull/new/master
+remote:
+To https://github.com/abhi9055/SDMExam.git
+ * [new branch]      master -> master
+
+Que 12 :-
+->
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git pull https://github.com/abhi9055/SDMExam.git
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), 678 bytes | 4.00 KiB/s, done.
+From https://github.com/abhi9055/SDMExam
+ * branch            HEAD       -> FETCH_HEAD
+
+Que 13 :-
+->
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git branch branch2
+
+C:\Users\Lenovo\Desktop\SDM_EXam\QUE9>git checkout branch2
+Switched to branch 'branch2'
+M       First.java
